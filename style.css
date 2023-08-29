@@ -1,0 +1,100 @@
+/* Reset default margin and padding for the entire page */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* Global styles */
+/* Global styles */
+body {
+  font-family: "Arial", sans-serif;
+  color: #020101; /* Darken the default text color for better readability */
+  line-height: 1.6;
+  background-image: url("pexels-eberhard-grossgasteiger-1624438.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Style for the header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #020303;
+  color: #ae87db;
+}
+
+/* Style for the logo */
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* Style for the "Add note" button */
+.add {
+  background-color: #007bff;
+  color:white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for a professional look */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Typography styles */
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #020303; /* Match the header background color */
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #070505;
+}
+
+/* Links styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
